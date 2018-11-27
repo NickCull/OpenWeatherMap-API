@@ -7,7 +7,7 @@ $.getJSON(
             console.log(data);
 
             var icon = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
-            //.description pulls full weather description rather than 
+            //.description pulls full weather description rather than .main data
             var weather = data.weather[0].description;
             var temp = Math.floor(data.main.temp);
 
