@@ -1,6 +1,11 @@
 .weather-container {
     background: #aaccee;
     text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #008044 ;
+    padding: 10px;
+    display: block;
 }
 
 .weather {
@@ -12,4 +17,10 @@
     font-size: 60px;
     margin: 0;
     font-weight: bold;
+}
+
+.name {
+    font-size: 22px;
+    margin: 0;
+    text-decoration: underline;
 }
