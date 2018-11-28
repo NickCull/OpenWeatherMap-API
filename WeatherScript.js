@@ -1,4 +1,4 @@
-var city = "austin"
+var city = "Boston"
 
 $.getJSON(
     "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&APPID=55454d6789810371ea394c209500de03",
